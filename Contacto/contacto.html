@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Prototipo Web</title>
+        <link rel="stylesheet" href="../stylesProt.css">
+    </head>
+    <body>
+        <header>
+            <img class="logo" alt="logo" src="../Imagenes/logoIW.jpg">
+            <h1 class="titulo">MI PORFOLIO</h1>
+        </header>
+        <main>
+            <aside>
+                <h2 class="sobreMi">Sobre mi</h2>
+                <ul class="paginas">
+                    <li><A HREF="../index.html" TARGET="pag1">Página Principal</A></li>
+                    <li><A HREF="../ProyectosDestacados/ProyectosDestacados.html" TARGET="pag2">Mis proyectos destacados</A></li>
+                    <li><A HREF="../ProcesoTrabajo/procesoTrabajo.html" TARGET="pag3">Mi proceso de trabajo</A></li>
+                    <li><A HREF="contacto.html" TARGET="pag4">Contacto</A></li>
+                </ul>
+            </aside>
+            <h2>Ponte en contacto conmigo</h2>
+            <form action="../index.html" method="get">
+                <fieldset>
+                    <legend> Escribeme tus dudas, sugerencias, opiniones... </legend>
+                    <label for="id-nombre"> Nombre: </label> <input type="text" name="nombre" id="id-nombre">
+                    <br>
+                    <label for="id-genero1"> Género: &nbsp; </label> 
+                    <input type="radio" name="genero" id="id-genero1"> <label for="id-genero1">  Hombre </label>
+                    <input type="radio" name="genero" id="id-genero2"> <label for="id-genero2"> Mujer </label>
+                    <br>
+                    <br>
+                    <label for="id-edad">Edad: </label>
+                    <select id="id-edad" name="edad">
+                        <optgroup label="seleccione edad:">
+                            <option selected>Menor de 18</option>
+                            <option>Mayor de 18</option>
+                        </optgroup>  
+                    </select>
+                    <br>
+                    <br>
+                    <label for="id-mail"> Email para que pueda responderte: </label> <input type="text" name="email" id="id-mail">
+                    <br>
+                    <br>
+                    <textarea name="textarea" rows="10" cols="50">Déjame un mensaje</textarea>
+                    <br>
+                    <label for="id-enviar"></label><input type="submit" id ="id-enviar" value="Enviar">
+                </fieldset>
+            </form>
+            <A class="bibliografia" HREF="../bibliografia.html" TARGET="bibliografia">Click aqui para la bibliografia</A>
+            <br>
+            <br>
+        </main>
+        <footer>
+            <img class="redesI" alt="instagram" src="../Imagenes/img9.png">
+            <img class="redes" alt="facebook" src="../Imagenes/img10.png">
+            <img class="redes" alt="twitter" src="../Imagenes/img11.png">
+            <p class="usuario">@anesanjuaan</p>
+            <p class="creadora">Por: Ane San Juan Tomé</p>
+        </footer>
+    </body>
+</html>
